@@ -8,21 +8,16 @@ const hamb = document.getElementById('hamb')
 const planets = document.getElementById('planets')
 
 
-function myFunction(){
- 
-     main.style.display = "block";
-  
 
-}
 
 
 window.onload = function(){
    sectionArray.forEach((section) => {
   section.style.display = "none";
-   main.style.display = "block";
+  
 
    })
-
+ main.style.display = "block";
 }
 
 buttonArray.forEach((button) => {
@@ -48,7 +43,7 @@ buttonArray.forEach((button) => {
 });
 
 
-myFunction()
+
 
 
 

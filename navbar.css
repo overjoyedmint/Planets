@@ -19,6 +19,7 @@
   background-color: black;
   border-bottom: 0.1px solid rgb(107, 110, 112);
   padding-right: 80px;
+  z-index: 10;
 }
 button {
   border: none;

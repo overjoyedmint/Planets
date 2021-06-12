@@ -1,0 +1,1 @@
+gsap.from("#navbar", { duration: 1, y: "-100%", ease: "sine", opacity: 0 });

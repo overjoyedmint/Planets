@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#navbar {
+  display: flex;
+  height: auto;
+  justify-content: space-between;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  position: sticky;
+  color: aliceblue;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgb(32, 32, 75);
+  border: none;
+  background-color: black;
+  border-bottom: 0.1px solid rgb(107, 110, 112);
+  padding-right: 80px;
+}
+button {
+  border: none;
+  background-color: inherit;
+  font-family: inherit;
+  color: inherit;
+  cursor: pointer;
+  padding: 10px 25px;
+  outline: none;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: aliceblue;
+  color: rgb(54, 18, 75);
+}
+
+.title {
+  padding: 10px 16px;
+}
+
+.planets {
+  border: none;
+  outline: none;
+}
+@media only screen and (max-width: 800px) {
+
+  #navbar{
+    padding-right: 0;
+  }
+
+}
